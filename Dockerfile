@@ -1,6 +1,6 @@
-FROM python:3.6-stretch
+FROM python:2.7-stretch
 
-RUN pip3 install jupyter pipenv
+RUN pip install jupyter pipenv
 
 RUN chmod 777 /home
 ENV HOME /home
