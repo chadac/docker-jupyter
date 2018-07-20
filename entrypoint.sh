@@ -6,6 +6,6 @@ fi
 
 pipenv install
 pipenv install --dev ipykernel
-pipenv run python -m ipykernel install --user --name=python3-pipenv
+pipenv run python -m ipykernel install --user --name=python-pipenv
 
 jupyter notebook --config=/.jupyter/jupyter_notebook_config.py
