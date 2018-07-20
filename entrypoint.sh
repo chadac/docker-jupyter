@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -f Pipfile ]; then
-    pipenv --three
+    pipenv --two
 fi
 
 pipenv install
